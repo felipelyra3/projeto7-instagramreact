@@ -1,43 +1,12 @@
-import ReactDOM from 'react-dom';
-import Header from './components/Header';
-import HeaderMobile from './components/HeaderMobile';
-import FooterMobile from './components/FooterMobile';
-import Page from './components/Page';
-
-function SecondPost() {
+function FinalText() {
     return (
-        <div class="caixaDePosts">
-                <div class="post">
-                <div class="postTopo">
-                                <img src="imagens/Sailor Jupiter.jpg" />
-                                <div class="postPerfil">
-                                    <h1>Sailor Jupiter</h1>
-                                    <h2>...</h2>
-                                </div>
-                            </div>
-                            <img src="imagens/Sailor Jupiter.jpg" />
-                            <div class="postRodape">
-                                <div class="postRodapeIcones">
-                                    <div class="postRodapeIconesDireita">
-                                        <ion-icon name="heart-outline"></ion-icon>
-                                        <ion-icon name="chatbubble-outline"></ion-icon>
-                                        <ion-icon name="paper-plane-outline"></ion-icon>
-                                    </div>
-                                    <div class="postRodapeIconesEsquerda">
-                                        <ion-icon name="bookmark-outline"></ion-icon>
-                                    </div>
-                                </div>
-                                <div class="postRodapeCurtidas">
-                                    <img src="imagens/Sakura2.jpg" />
-                                    <p>Curtido por <strong>Sakura</strong> e <strong>outras 101.523 pessoas</strong></p>
-                                </div>
-                            </div>
-
-                    </div></div>
+        <><p> <a href="http://instagram.com">Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade •
+            Termos • Localizações • Contas mais relevantes • Hashtags •
+            Idioma</a></p><p>© 2021 INSTAGRAM DO FACEBOOK</p></>
     );
 }
 
-function Sidebar() {
+export default function Sidebar() {
     return (
         <div class="sidebar">
             <div class="sidebarPerfil">
@@ -125,26 +94,3 @@ function Sidebar() {
         </div>    
     );
 }
-
-function FinalText() {
-    return (
-        <><p> <a href="http://instagram.com">Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade •
-            Termos • Localizações • Contas mais relevantes • Hashtags •
-            Idioma</a></p><p>© 2021 INSTAGRAM DO FACEBOOK</p></>
-    );
-}
-
-
-function App() {
-    return (
-        <div>
-            <Header />
-            <HeaderMobile />
-            <Page />
-            <FooterMobile />
-        </div>
-    );
-}
-
-const app = App();
-ReactDOM.render(<App />, document.querySelector(".root"));
