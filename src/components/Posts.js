@@ -1,4 +1,5 @@
 const postsProps = [
+    { imgProfile: "/imagens/trans.jpg", h1: "LGBTQIA+", imgPost: "/imagens/Kurama.png", imgLikes: "/imagens/Shun.jpg", nameLikes: "Shun", nLikes: "101.523" },
     { imgProfile: "imagens/Sakura2.jpg", h1: "Sakura", imgPost: "imagens/SakuraEYue.jpg", imgLikes: "imagens/Yue2.jpg", nameLikes: "Yue", nLikes: "101.523" },
     { imgProfile: "imagens/Sailor Jupiter.jpg", h1: "Sailor Jupiter", imgPost: "imagens/Sailor Jupiter.jpg", imgLikes: "imagens/Sakura2.jpg", nameLikes: "Sakura", nLikes: "101.523" },
     { imgProfile: "imagens/Shun.jpg", h1: "Shun", imgPost: "imagens/Hyoga.jpg", imgLikes: "imagens/Hyoga.jpg", nameLikes: "Hyoga", nLikes: "101.523" }

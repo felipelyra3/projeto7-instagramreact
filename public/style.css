@@ -100,7 +100,7 @@ strong {
     height: 118px;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
-    margin: 88px 0px 24px 0px;
+    margin: 38px 0px 24px 0px;
     display: flex;
     align-items: center;
     overflow-x: hidden;
@@ -259,7 +259,7 @@ strong {
     /* background-color: red; */
     height: 450px;
     width: 293px;
-    margin: 98px 0px 0px 10px;
+    margin: 48px 0px 0px 10px;
     display: flex;
     flex-direction: column;
 }

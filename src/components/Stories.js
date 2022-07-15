@@ -4,6 +4,7 @@ const storiesProps = [
     {img: "/imagens/Sakura2.jpg", p: "Sakura2"},
     {img: "/imagens/Sailor Jupiter.jpg", p: "Sailor..."},
     {img: "/imagens/lgbtqia.jpg", p: "LGBT..."},
+    {img: "/imagens/trans.jpg", p: "Trans"},
     {img: "/imagens/Kurama.png", p: "Kurama"},
     {img: "/imagens/Shun.jpg", p: "Shun"},
     {img: "/imagens/Yue.jpg", p: "Yue"}
