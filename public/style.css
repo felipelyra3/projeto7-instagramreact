@@ -389,6 +389,18 @@ strong {
     margin: 12px;
 }
 
+.heart {
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+ion-icon {
+    visibility: visible;
+}
+
 
 
 
