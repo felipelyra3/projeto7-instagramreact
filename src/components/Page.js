@@ -1,5 +1,6 @@
 import Stories from "./Stories";
 import Posts from "./Posts";
+import Posts2 from "./Posts2";
 import Sidebar from "./Sidebar";
 
 export default function Page() {
