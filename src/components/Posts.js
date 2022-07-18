@@ -10,6 +10,7 @@ const postsProps = [
 function PostItems2() {
     const [corBotao, setCorBotao] = React.useState("heart");
     const [contador, setContador] = React.useState(101523);
+    const [heartState, setHeartState] = React.useState("heart-outline");
     const componentsPosts = postsProps.map(postsProps => <>
         <div class="caixaDePosts">
             <div class="post">
@@ -25,13 +26,15 @@ function PostItems2() {
                 <div class="postRodape">
                     <div class="postRodapeIcones">
                         <div class="postRodapeIconesDireita">
-                            <ion-icon name="heart-outline" class={corBotao} onClick={() => {
+                            <ion-icon name={heartState} class={corBotao} onClick={() => {
                                 if(corBotao === "heart") {
                                     setCorBotao("red");
                                     setContador(contador + 1);
+                                    setHeartState("heart")
                                 } else {
                                     setCorBotao("heart");
                                     setContador(contador - 1);
+                                    setHeartState("heart-outline")
                                 }
                             }}></ion-icon>
                             <ion-icon name="chatbubble-outline"></ion-icon>
